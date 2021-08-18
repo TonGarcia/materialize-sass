@@ -19,8 +19,9 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # development dependencies
-  spec.add_development_dependency "bundler", "~> 2.2.6"
+  spec.add_development_dependency "bundler", "~> 2.2.26"
   spec.add_development_dependency "rake", "~> 13.0.6"
+  spec.add_dependency "railties", "~> 6.1.4"
 
   #runtime dependencies
   spec.add_runtime_dependency 'autoprefixer-rails', '~> 10.3.1.0'
